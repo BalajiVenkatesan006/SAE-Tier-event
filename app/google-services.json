@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "608534402421",
+    "firebase_url": "https://tier-2-event.firebaseio.com",
+    "project_id": "tier-2-event",
+    "storage_bucket": "tier-2-event.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608534402421:android:cab9efbd96cc8983",
+        "android_client_info": {
+          "package_name": "com.example.balaji.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608534402421-docrq5f4vgsa1r46estnd29rogn9tg7d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.balaji.demo",
+            "certificate_hash": "965d358a052423872d1465cd5828a5c71781284c"
+          }
+        },
+        {
+          "client_id": "608534402421-efh596r8em9lohqhr4fvbejifdjv5obo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNKlMiMslJ_RU50JElI5RXEYeZJJi7xnw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608534402421-efh596r8em9lohqhr4fvbejifdjv5obo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
