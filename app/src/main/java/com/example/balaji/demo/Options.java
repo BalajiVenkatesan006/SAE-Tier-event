@@ -20,14 +20,16 @@ public class Options extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_options);
 
+        Toolbar  toolb = (Toolbar) findViewById(R.id.toolBar1);
+        setSupportActionBar(toolb);
     }
 
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        MenuInflater inflater =  getMenuInflater();
-//        inflater.inflate(R.menu.main_menu_options,menu);
-//                return true;
-//    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.options_menu, menu);
+        return true;
+    }
 
 
     public void onclickfriends(View view){
